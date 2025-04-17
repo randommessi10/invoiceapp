@@ -123,6 +123,13 @@ exports.Prisma.ClientsScalarFieldEnum = {
   age: 'age'
 };
 
+exports.Prisma.CompanyScalarFieldEnum = {
+  name: 'name',
+  address: 'address',
+  city: 'city',
+  phone: 'phone'
+};
+
 exports.Prisma.SortOrder = {
   asc: 'asc',
   desc: 'desc'
@@ -132,9 +139,22 @@ exports.Prisma.clientsOrderByRelevanceFieldEnum = {
   name: 'name'
 };
 
+exports.Prisma.NullsOrder = {
+  first: 'first',
+  last: 'last'
+};
+
+exports.Prisma.companyOrderByRelevanceFieldEnum = {
+  name: 'name',
+  address: 'address',
+  city: 'city',
+  phone: 'phone'
+};
+
 
 exports.Prisma.ModelName = {
-  clients: 'clients'
+  clients: 'clients',
+  company: 'company'
 };
 
 /**

@@ -19,10 +19,9 @@ app.post('/submit', async (req, res) => {
     const { value } = req.body;  // Getting the 'value' from the frontend
     console.log('Received from frontend:', value);
     // Find the client using the submitted value
-    inputId = parseInt(value);
-    const allClients = await prisma.clients.findUnique({
+    const allClients = await prisma.company.findUnique({
       where: {
-        id: inputId
+        name: value
       }
     });
     console.log("All Clients:", allClients); // Log the client data to the server console

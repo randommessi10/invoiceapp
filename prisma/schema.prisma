@@ -13,3 +13,10 @@ model clients {
   name String @db.VarChar(255)
   age  Int
 }
+
+model company {
+  name    String  @id @db.VarChar(255)
+  address String? @db.VarChar(255)
+  city    String? @db.VarChar(100)
+  phone   String? @db.VarChar(15)
+}
