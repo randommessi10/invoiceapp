@@ -1,0 +1,97 @@
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.rectangleMain {
+    width : 2px;
+    height : 220px;
+    background-color : #FF1DA4;
+    border-radius: 5px;
+    margin-left: 160px;
+    margin-right: 16px;
+}
+
+tr{
+    height: 35px;
+}
+
+.tableTitle {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #1A1C21;
+    margin-left: 0px;
+}
+
+
+.tableHeading {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: #5E6470;
+}
+.itemName {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1A1C21;
+}
+
+.itemDetails {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #1A1C21;
+}
+
+.hr {
+    color: #D7DAE0;
+    width: 250%;
+}
+.subHeading {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #5E6470;
+}
+
+.total {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #1A1C21;
+}
+
+.totalPrice {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FF1DA4;
+}
+
+.itemdescription {
+    text-align: left;
+    width: 175px;
+}
+
+.quantity {
+    text-align: left;
+    margin-left: 24px;
+    width: 75px;
+    margin-right: 24px;
+}
+
+.rate {
+    text-align: right;
+    margin-left: 24px;
+    width: 100px;
+    margin-right: 24px;
+}
+
+.amount {
+    text-align: right;
+    margin-left: 24px;
+    width: 100px;
+    margin-right: 24px;
+}

@@ -1,0 +1,54 @@
+
+h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 45px;
+    font-weight: bold;
+    color: #1A1C21;
+    margin-top: 20px;
+    margin-left: 32px;
+    margin-bottom: 10px;
+}
+
+.headerContainer{
+    display: flex;
+    flex-direction: row;
+}
+.Payables {
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.BilledTo {
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.From {
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.sectionHeading {
+    font-family: 'Inter', sans-serif;
+    font-size: 10;
+    font-weight: 600;
+    color: #1A1C21;
+    margin-bottom: 3px;
+}
+
+.sectionSubHeading {
+    font-family: 'Inter', sans-serif;
+    font-size: 10;
+    font-weight: 600;
+    color:#5E6470;
+    margin-top: 3px;
+    margin-bottom: 1px;
+}
+
+.texts {
+    font-family: 'Inter', sans-serif;
+    font-size: 10;
+    font-weight: 400;
+    color:#5E6470;
+    margin-top: 1px;
+}
